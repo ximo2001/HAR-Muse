@@ -1,0 +1,159 @@
+Processing file: features_1.csv
+Optimized parameters for HistGradientBoosting: {'histgb__learning_rate': 0.05, 'histgb__max_depth': None, 'histgb__max_iter': 200, 'histgb__min_samples_leaf': 20, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.56
+
+Processing file: features_4.csv
+Optimized parameters for HistGradientBoosting: {'histgb__learning_rate': 0.05, 'histgb__max_depth': 5, 'histgb__max_iter': 200, 'histgb__min_samples_leaf': 40, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.53
+
+Processing file: features_3.csv
+Optimized parameters for HistGradientBoosting: {'histgb__learning_rate': 0.01, 'histgb__max_depth': 5, 'histgb__max_iter': 200, 'histgb__min_samples_leaf': 20, 'select_k_best__k': 33}
+Optimized cross-validation score: 0.53
+
+Processing file: features_2.csv
+Optimized parameters for HistGradientBoosting: {'histgb__learning_rate': 0.01, 'histgb__max_depth': 10, 'histgb__max_iter': 200, 'histgb__min_samples_leaf': 20, 'select_k_best__k': 33}
+Optimized cross-validation score: 0.55
+
+Processing file: features_1.csv
+Optimized parameters for CatBoost: {'catboost__depth': 6, 'catboost__iterations': 200, 'catboost__l2_leaf_reg': 3, 'catboost__learning_rate': 0.05, 'select_k_best__k': 41}
+Optimized cross-validation score: 0.55
+
+Processing file: features_4.csv
+Optimized parameters for CatBoost: {'catboost__depth': 4, 'catboost__iterations': 200, 'catboost__l2_leaf_reg': 3, 'catboost__learning_rate': 0.05, 'select_k_best__k': 42}
+Optimized cross-validation score: 0.54
+
+Processing file: features_3.csv
+Optimized parameters for CatBoost: {'catboost__depth': 4, 'catboost__iterations': 200, 'catboost__l2_leaf_reg': 3, 'catboost__learning_rate': 0.05, 'select_k_best__k': 35}
+Optimized cross-validation score: 0.54
+
+Processing file: features_2.csv
+Optimized parameters for CatBoost: {'catboost__depth': 4, 'catboost__iterations': 200, 'catboost__l2_leaf_reg': 3, 'catboost__learning_rate': 0.1, 'select_k_best__k': 41}
+Optimized cross-validation score: 0.56
+
+Processing file: features_1.csv
+Optimized parameters for ExtraTrees: {'et__max_depth': None, 'et__min_samples_split': 15, 'et__n_estimators': 100, 'select_k_best__k': 43}
+Optimized cross-validation score: 0.52
+
+Processing file: features_4.csv
+Optimized parameters for ExtraTrees: {'et__max_depth': None, 'et__min_samples_split': 10, 'et__n_estimators': 100, 'select_k_best__k': 28}
+Optimized cross-validation score: 0.51
+
+Processing file: features_3.csv
+Optimized parameters for ExtraTrees: {'et__max_depth': None, 'et__min_samples_split': 15, 'et__n_estimators': 100, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.52
+
+Processing file: features_2.csv
+Optimized parameters for ExtraTrees: {'et__max_depth': None, 'et__min_samples_split': 15, 'et__n_estimators': 200, 'select_k_best__k': 36}
+Optimized cross-validation score: 0.52
+
+Processing file: features_1.csv
+Optimized parameters for Random Forest: {'random_forest__max_depth': 10, 'random_forest__min_samples_leaf': 4, 'random_forest__min_samples_split': 10, 'random_forest__n_estimators': 300, 'select_k_best__k': 39}
+Optimized cross-validation score: 0.55
+
+Processing file: features_4.csv
+Optimized parameters for Random Forest: {'random_forest__max_depth': 20, 'random_forest__min_samples_leaf': 4, 'random_forest__min_samples_split': 2, 'random_forest__n_estimators': 300, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.53
+
+Processing file: features_3.csv
+Optimized parameters for Random Forest: {'random_forest__max_depth': 10, 'random_forest__min_samples_leaf': 4, 'random_forest__min_samples_split': 2, 'random_forest__n_estimators': 300, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.54
+
+Processing file: features_2.csv
+Optimized parameters for Random Forest: {'random_forest__max_depth': 10, 'random_forest__min_samples_leaf': 4, 'random_forest__min_samples_split': 10, 'random_forest__n_estimators': 300, 'select_k_best__k': 39}
+Optimized cross-validation score: 0.55
+
+Processing file: features_1.csv
+Optimized parameters for XGBoost: {'select_k_best__k': 44, 'xgb__learning_rate': 0.05, 'xgb__max_depth': 7, 'xgb__n_estimators': 300}
+Optimized cross-validation score: 0.55
+
+Processing file: features_4.csv
+Optimized parameters for XGBoost: {'select_k_best__k': 41, 'xgb__learning_rate': 0.05, 'xgb__max_depth': 3, 'xgb__n_estimators': 100}
+Optimized cross-validation score: 0.53
+
+Processing file: features_3.csv
+Optimized parameters for XGBoost: {'select_k_best__k': 35, 'xgb__learning_rate': 0.01, 'xgb__max_depth': 3, 'xgb__n_estimators': 300}
+Optimized cross-validation score: 0.54
+
+Processing file: features_2.csv
+Optimized parameters for XGBoost: {'select_k_best__k': 35, 'xgb__learning_rate': 0.01, 'xgb__max_depth': 3, 'xgb__n_estimators': 200}
+Optimized cross-validation score: 0.55
+
+Processing file: features_1.csv
+Optimized parameters for KNN: {'knn__algorithm': 'auto', 'knn__n_neighbors': 49, 'knn__weights': 'distance', 'select_k_best__k': 8}
+Optimized cross-validation score: 0.34
+
+Processing file: features_4.csv
+Optimized parameters for KNN: {'knn__algorithm': 'auto', 'knn__n_neighbors': 35, 'knn__weights': 'uniform', 'select_k_best__k': 8}
+Optimized cross-validation score: 0.37
+
+Processing file: features_3.csv
+Optimized parameters for KNN: {'knn__algorithm': 'brute', 'knn__n_neighbors': 23, 'knn__weights': 'distance', 'select_k_best__k': 5}
+Optimized cross-validation score: 0.37
+
+Processing file: features_2.csv
+Optimized parameters for KNN: {'knn__algorithm': 'auto', 'knn__n_neighbors': 15, 'knn__weights': 'uniform', 'select_k_best__k': 5}
+Optimized cross-validation score: 0.35
+
+Processing file: features_1.csv
+Optimized parameters for AdaBoost: {'adaboost__learning_rate': 0.1, 'adaboost__n_estimators': 200, 'select_k_best__k': 37}
+Optimized cross-validation score: 0.53
+
+Processing file: features_4.csv
+Optimized parameters for AdaBoost: {'adaboost__learning_rate': 0.1, 'adaboost__n_estimators': 100, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.51
+
+Processing file: features_3.csv
+Optimized parameters for AdaBoost: {'adaboost__learning_rate': 0.1, 'adaboost__n_estimators': 150, 'select_k_best__k': 35}
+Optimized cross-validation score: 0.53
+
+Processing file: features_2.csv
+Optimized parameters for AdaBoost: {'adaboost__learning_rate': 0.1, 'adaboost__n_estimators': 150, 'select_k_best__k': 38}
+Optimized cross-validation score: 0.53
+
+Processing file: features_1.csv
+Optimized parameters for MLP: {'mlp__activation': 'relu', 'mlp__alpha': 0.01, 'mlp__early_stopping': True, 'mlp__hidden_layer_sizes': (100,), 'mlp__n_iter_no_change': 20, 'mlp__solver': 'adam', 'mlp__validation_fraction': 0.1, 'select_k_best__k': 31}
+Optimized cross-validation score: 0.33
+
+Processing file: features_4.csv
+Optimized parameters for MLP: {'mlp__activation': 'relu', 'mlp__alpha': 0.3, 'mlp__early_stopping': True, 'mlp__hidden_layer_sizes': (150,), 'mlp__n_iter_no_change': 20, 'mlp__solver': 'adam', 'mlp__validation_fraction': 0.1, 'select_k_best__k': 12}
+Optimized cross-validation score: 0.37
+
+Processing file: features_3.csv
+Optimized parameters for MLP: {'mlp__activation': 'relu', 'mlp__alpha': 0.3, 'mlp__early_stopping': True, 'mlp__hidden_layer_sizes': (200,), 'mlp__n_iter_no_change': 20, 'mlp__solver': 'adam', 'mlp__validation_fraction': 0.1, 'select_k_best__k': 29}
+Optimized cross-validation score: 0.37
+
+Processing file: features_2.csv
+Optimized parameters for MLP: {'mlp__activation': 'relu', 'mlp__alpha': 0.1, 'mlp__early_stopping': True, 'mlp__hidden_layer_sizes': (100,), 'mlp__n_iter_no_change': 20, 'mlp__solver': 'adam', 'mlp__validation_fraction': 0.1, 'select_k_best__k': 17}
+Optimized cross-validation score: 0.35
+
+Processing file: features_1.csv
+Optimized parameters for GaussianNB: {'gnb__var_smoothing': 0.001, 'select_k_best__k': 28}
+Optimized cross-validation score: 0.37
+
+Processing file: features_4.csv
+Optimized parameters for GaussianNB: {'gnb__var_smoothing': 0.0001, 'select_k_best__k': 22}
+Optimized cross-validation score: 0.36
+
+Processing file: features_3.csv
+Optimized parameters for GaussianNB: {'gnb__var_smoothing': 0.0001, 'select_k_best__k': 25}
+Optimized cross-validation score: 0.36
+
+Processing file: features_2.csv
+Optimized parameters for GaussianNB: {'gnb__var_smoothing': 0.0001, 'select_k_best__k': 28}
+Optimized cross-validation score: 0.36
+
+Processing file: features_1.csv
+Optimized parameters for SVM: {'select_k_best__k': 44, 'svm__C': 250, 'svm__loss': 'squared_hinge', 'svm__penalty': 'l1'}
+Optimized cross-validation score: 0.49
+
+Processing file: features_4.csv
+Optimized parameters for SVM: {'select_k_best__k': 30, 'svm__C': 100, 'svm__loss': 'squared_hinge', 'svm__penalty': 'l1'}
+Optimized cross-validation score: 0.46
+
+Processing file: features_3.csv
+Optimized parameters for SVM: {'select_k_best__k': 46, 'svm__C': 250, 'svm__loss': 'squared_hinge', 'svm__penalty': 'l1'}
+Optimized cross-validation score: 0.47
+
+Processing file: features_2.csv
+Optimized parameters for SVM: {'select_k_best__k': 50, 'svm__C': 250, 'svm__loss': 'squared_hinge', 'svm__penalty': 'l1'}
+Optimized cross-validation score: 0.49
