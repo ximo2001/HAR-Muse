@@ -1,0 +1,83 @@
+Best Accuracy Model Info:
+Model                      StackingClassifier
+Window                                    1.0
+K                                        50.0
+Time(s)                            2030.39961
+Accuracy                             0.569444
+Balanced Accuracy                    0.940278
+G-Mean                               0.557238
+F1-Score_Música                      0.977273
+Sensitivity_Música                   0.561111
+Specificity_Música                   0.587209
+F1-Score_Leer                            0.96
+Sensitivity_Leer                     0.577778
+Specificity_Leer                     0.533333
+F1-Score_Meditar                     0.908136
+Sensitivity_Meditar                  0.733333
+Specificity_Meditar                  0.656716
+F1-Score_Matemáticas                 0.915663
+Sensitivity_Matemáticas              0.405556
+Specificity_Matemáticas              0.480263
+
+Matriz de Confusión Normalizada por Filas (Accuracy):
+             Música   Leer  Meditar  Matemáticas
+Música        0.561  0.161    0.083        0.194
+Leer          0.133  0.578    0.156        0.133
+Meditar       0.022  0.133    0.733        0.111
+Matemáticas   0.239  0.211    0.144        0.406
+
+Best Balanced Accuracy Model Info:
+Model                      StackingClassifier
+Window                                    4.0
+K                                        37.0
+Time(s)                           1667.584496
+Accuracy                             0.538889
+Balanced Accuracy                    0.987153
+G-Mean                                0.52852
+F1-Score_Música                      0.999305
+Sensitivity_Música                   0.516667
+Specificity_Música                   0.517385
+F1-Score_Leer                        0.993017
+Sensitivity_Leer                     0.479167
+Specificity_Leer                     0.484551
+F1-Score_Meditar                      0.97561
+Sensitivity_Meditar                     0.725
+Specificity_Meditar                  0.690476
+F1-Score_Matemáticas                 0.980892
+Sensitivity_Matemáticas              0.434722
+Specificity_Matemáticas              0.451659
+
+Matriz de Confusión Normalizada por Filas (Balanced Accuracy):
+             Música   Leer  Meditar  Matemáticas
+Música        0.517  0.199    0.062        0.222
+Leer          0.201  0.479    0.157        0.162
+Meditar       0.050  0.082    0.725        0.143
+Matemáticas   0.231  0.229    0.106        0.435
+
+Best G-Mean Model Info:
+Model                      Random Forest
+Window                               2.0
+K                                   39.0
+Time(s)                        60.907585
+Accuracy                        0.569444
+Balanced Accuracy               0.944444
+G-Mean                          0.559103
+F1-Score_Música                 0.939948
+Sensitivity_Música              0.580556
+Specificity_Música              0.514778
+F1-Score_Leer                   0.920821
+Sensitivity_Leer                0.505556
+Specificity_Leer                0.565217
+F1-Score_Meditar                 0.95393
+Sensitivity_Meditar             0.744444
+Specificity_Meditar             0.708995
+F1-Score_Matemáticas            0.962536
+Sensitivity_Matemáticas         0.447222
+Specificity_Matemáticas         0.482036
+
+Matriz de Confusión Normalizada por Filas (G-Mean):
+             Música   Leer  Meditar  Matemáticas
+Música        0.581  0.156    0.061        0.203
+Leer          0.206  0.506    0.133        0.156
+Meditar       0.064  0.069    0.744        0.122
+Matemáticas   0.278  0.164    0.111        0.447
