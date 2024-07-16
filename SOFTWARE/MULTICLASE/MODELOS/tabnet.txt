@@ -1,0 +1,12 @@
+Processing file: features_1.csv
+Optimized parameters for TabNet: {'select_k_best__k': 37, 'tabnet__batch_size': 128, 'tabnet__max_epochs': 50, 'tabnet__optimizer_params': {'lr': 0.1}, 'tabnet__virtual_batch_size': 32}
+Optimized cross-validation score: 0.33
+Processing file: features_4.csv
+Optimized parameters for TabNet: {'select_k_best__k': 32, 'tabnet__batch_size': 128, 'tabnet__max_epochs': 50, 'tabnet__optimizer_params': {'lr': 0.01}, 'tabnet__virtual_batch_size': 32}
+Optimized cross-validation score: 0.41
+Processing file: features_3.csv
+Optimized parameters for TabNet: {'select_k_best__k': 37, 'tabnet__batch_size': 128, 'tabnet__max_epochs': 100, 'tabnet__optimizer_params': {'lr': 0.01}, 'tabnet__virtual_batch_size': 64}
+Optimized cross-validation score: 0.42
+Processing file: features_2.csv
+Optimized parameters for TabNet: {'select_k_best__k': 30, 'tabnet__batch_size': 128, 'tabnet__max_epochs': 100, 'tabnet__optimizer_params': {'lr': 0.01}, 'tabnet__virtual_batch_size': 32}
+Optimized cross-validation score: 0.37

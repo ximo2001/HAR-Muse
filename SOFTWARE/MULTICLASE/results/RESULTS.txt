@@ -1,0 +1,42 @@
+Best Accuracy Models Info:
+                  Model  Window     K      Time(s)  Accuracy    G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+386  StackingClassifier     1.0  50.0  2030.399610  0.569444  0.557238               0.569444               0.856481            0.561111            0.868519          0.577778          0.831481             0.733333             0.872222                 0.405556                 0.853704
+432       Random Forest     2.0  39.0    60.907585  0.569444  0.559103               0.569444               0.856481            0.580556            0.817593          0.505556          0.870370             0.744444             0.898148                 0.447222                 0.839815
+
+Matrices de Confusión Normalizadas por Filas (Accuracy):
+Model: StackingClassifier - Window: 1.0 - K: 50.0
+             Música   Leer  Meditar  Matemáticas
+Música        0.561  0.161    0.083        0.194
+Leer          0.133  0.578    0.156        0.133
+Meditar       0.022  0.133    0.733        0.111
+Matemáticas   0.239  0.211    0.144        0.406
+Model: Random Forest - Window: 2.0 - K: 39.0
+             Música   Leer  Meditar  Matemáticas
+Música        0.581  0.156    0.061        0.203
+Leer          0.206  0.506    0.133        0.156
+Meditar       0.064  0.069    0.744        0.122
+Matemáticas   0.278  0.164    0.111        0.447
+
+Best mean Recall Models Info:
+             Model  Window     K    Time(s)  Accuracy    G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+432  Random Forest     2.0  39.0  60.907585  0.569444  0.559103               0.569444               0.856481            0.580556            0.817593          0.505556           0.87037             0.744444             0.898148                 0.447222                 0.839815
+
+Matrices de Confusión Normalizadas por Filas (mean recall`):
+Model: Random Forest - Window: 2.0 - K: 39.0
+             Música   Leer  Meditar  Matemáticas
+Música        0.581  0.156    0.061        0.203
+Leer          0.206  0.506    0.133        0.156
+Meditar       0.064  0.069    0.744        0.122
+Matemáticas   0.278  0.164    0.111        0.447
+
+Best G-Mean Models Info:
+             Model  Window     K    Time(s)  Accuracy    G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+432  Random Forest     2.0  39.0  60.907585  0.569444  0.559103               0.569444               0.856481            0.580556            0.817593          0.505556           0.87037             0.744444             0.898148                 0.447222                 0.839815
+
+Matrices de Confusión Normalizadas por Filas (G-Mean):
+Model: Random Forest - Window: 2.0 - K: 39.0
+             Música   Leer  Meditar  Matemáticas
+Música        0.581  0.156    0.061        0.203
+Leer          0.206  0.506    0.133        0.156
+Meditar       0.064  0.069    0.744        0.122
+Matemáticas   0.278  0.164    0.111        0.447

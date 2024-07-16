@@ -1,0 +1,63 @@
+Ranking by Accuracy:
+               Model   Rank
+    VotingClassifier  7.875
+       Random Forest  9.500
+            CatBoost 11.000
+  StackingClassifier 11.250
+             XGBoost 15.750
+HistGradientBoosting 22.375
+            AdaBoost 25.875
+          ExtraTrees 28.375
+                 SVM 34.500
+              TabNet 41.500
+                 MLP 44.000
+                 KNN 45.000
+          GaussianNB 47.500
+
+Ranking by mean Recall:
+               Model   Rank
+    VotingClassifier  7.875
+       Random Forest  9.375
+            CatBoost 11.000
+  StackingClassifier 11.250
+             XGBoost 15.750
+HistGradientBoosting 22.500
+            AdaBoost 26.000
+          ExtraTrees 28.250
+                 SVM 34.500
+              TabNet 41.500
+                 MLP 44.000
+                 KNN 45.000
+          GaussianNB 47.500
+
+Ranking by Especifidad:
+               Model   Rank
+    VotingClassifier  7.875
+       Random Forest  9.375
+            CatBoost 11.000
+  StackingClassifier 11.375
+             XGBoost 15.750
+HistGradientBoosting 22.375
+            AdaBoost 25.875
+          ExtraTrees 28.375
+                 SVM 34.500
+              TabNet 41.500
+                 MLP 44.000
+                 KNN 45.000
+          GaussianNB 47.500
+
+General Ranking Across Metrics:
+               Model  Average_Rank
+    VotingClassifier      7.875000
+       Random Forest      9.416667
+            CatBoost     11.000000
+  StackingClassifier     11.291667
+             XGBoost     15.750000
+HistGradientBoosting     22.416667
+            AdaBoost     25.916667
+          ExtraTrees     28.333333
+                 SVM     34.500000
+              TabNet     41.500000
+                 MLP     44.000000
+                 KNN     45.000000
+          GaussianNB     47.500000

@@ -1,0 +1,15 @@
+Model          Accuracy Medio Sensibilidad Promedio Media   Specificidad General Media    
+==========================================================================================
+VotingClassifier0.5603         0.5603                        0.8534                        
+Random Forest  0.5591         0.5591                        0.8530                        
+StackingClassifier0.5572         0.5572                        0.8524                        
+CatBoost       0.5566         0.5566                        0.8522                        
+XGBoost        0.5517         0.5517                        0.8506                        
+HistGradientBoosting0.5433         0.5433                        0.8478                        
+AdaBoost       0.5363         0.5363                        0.8454                        
+ExtraTrees     0.5258         0.5258                        0.8419                        
+SVM            0.4795         0.4795                        0.8265                        
+TabNet         0.3742         0.3742                        0.7914                        
+MLP            0.3455         0.3455                        0.7818                        
+KNN            0.3394         0.3394                        0.7798                        
+GaussianNB     0.3198         0.3198                        0.7733                        

@@ -1,0 +1,56 @@
+StackingClassifier Performance Report
+
+Window: 1.0
+Best Accuracy:
+             Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     1.0 50.0 2030.39961  0.569444 0.557238               0.569444               0.856481            0.561111            0.868519          0.577778          0.831481             0.733333             0.872222                 0.405556                 0.853704
+
+Best mean Recall:
+             Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     1.0 50.0 2030.39961  0.569444 0.557238               0.569444               0.856481            0.561111            0.868519          0.577778          0.831481             0.733333             0.872222                 0.405556                 0.853704
+
+Best G-Mean:
+             Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     1.0 50.0 2030.39961  0.569444 0.557238               0.569444               0.856481            0.561111            0.868519          0.577778          0.831481             0.733333             0.872222                 0.405556                 0.853704
+
+Window: 2.0
+Best Accuracy:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     2.0 45.0 1802.172367  0.550694 0.542521               0.550694               0.850231            0.555556            0.847222          0.519444          0.847222             0.697222              0.87963                 0.430556                 0.826852
+
+Best mean Recall:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     2.0 45.0 1802.172367  0.550694 0.542521               0.550694               0.850231            0.555556            0.847222          0.519444          0.847222             0.697222              0.87963                 0.430556                 0.826852
+
+Best G-Mean:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     2.0 45.0 1802.172367  0.550694 0.542521               0.550694               0.850231            0.555556            0.847222          0.519444          0.847222             0.697222              0.87963                 0.430556                 0.826852
+
+Window: 3.0
+Best Accuracy:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     3.0 43.0 1772.120178  0.552315 0.544501               0.552315               0.850772            0.524074            0.850617          0.518519          0.856790             0.712963             0.879012                 0.453704                 0.816667
+StackingClassifier     3.0 45.0 1848.773024  0.552315 0.545628               0.552315               0.850772            0.537037            0.854321          0.509259          0.855556             0.700000             0.877160                 0.462963                 0.816049
+
+Best mean Recall:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     3.0 43.0 1772.120178  0.552315 0.544501               0.552315               0.850772            0.524074            0.850617          0.518519          0.856790             0.712963             0.879012                 0.453704                 0.816667
+StackingClassifier     3.0 45.0 1848.773024  0.552315 0.545628               0.552315               0.850772            0.537037            0.854321          0.509259          0.855556             0.700000             0.877160                 0.462963                 0.816049
+
+Best G-Mean:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     3.0 45.0 1848.773024  0.552315 0.545628               0.552315               0.850772            0.537037            0.854321          0.509259          0.855556                  0.7              0.87716                 0.462963                 0.816049
+
+Window: 4.0
+Best Accuracy:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     4.0 45.0 4074.404243   0.55625 0.546879                0.55625               0.852083            0.540278            0.839815          0.498611          0.848611             0.733333             0.883333                 0.452778                 0.836574
+
+Best mean Recall:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     4.0 45.0 4074.404243   0.55625 0.546879                0.55625               0.852083            0.540278            0.839815          0.498611          0.848611             0.733333             0.883333                 0.452778                 0.836574
+
+Best G-Mean:
+             Model  Window    K     Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+StackingClassifier     4.0 45.0 4074.404243   0.55625 0.546879                0.55625               0.852083            0.540278            0.839815          0.498611          0.848611             0.733333             0.883333                 0.452778                 0.836574
+

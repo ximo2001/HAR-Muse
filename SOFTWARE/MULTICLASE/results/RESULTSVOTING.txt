@@ -1,0 +1,54 @@
+VotingClassifier Performance Report
+
+Window: 1.0
+Best Accuracy:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     1.0 41.0 187.619199  0.566667 0.556863               0.566667               0.855556            0.605556            0.825926          0.544444          0.840741                  0.7                  0.9                 0.416667                 0.855556
+
+Best mean Recall:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     1.0 41.0 187.619199  0.566667 0.556863               0.566667               0.855556            0.605556            0.825926          0.544444          0.840741                  0.7                  0.9                 0.416667                 0.855556
+
+Best G-Mean:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     1.0 41.0 187.619199  0.566667 0.556863               0.566667               0.855556            0.605556            0.825926          0.544444          0.840741                  0.7                  0.9                 0.416667                 0.855556
+
+Window: 2.0
+Best Accuracy:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     2.0 50.0 119.227565  0.560417 0.546362               0.560417               0.853472            0.647222            0.781481          0.533333          0.853704             0.683333             0.906481                 0.377778                 0.872222
+
+Best mean Recall:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     2.0 50.0 119.227565  0.560417 0.546362               0.560417               0.853472            0.647222            0.781481          0.533333          0.853704             0.683333             0.906481                 0.377778                 0.872222
+
+Best G-Mean:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     2.0 50.0 119.227565  0.560417 0.546362               0.560417               0.853472            0.647222            0.781481          0.533333          0.853704             0.683333             0.906481                 0.377778                 0.872222
+
+Window: 3.0
+Best Accuracy:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     3.0 50.0 142.814271   0.55463 0.544365                0.55463               0.851543            0.627778            0.805556          0.548148           0.82284                 0.65             0.908025                 0.392593                 0.869753
+
+Best mean Recall:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     3.0 50.0 142.814271   0.55463 0.544365                0.55463               0.851543            0.627778            0.805556          0.548148           0.82284                 0.65             0.908025                 0.392593                 0.869753
+
+Best G-Mean:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     3.0 50.0 142.814271   0.55463 0.544365                0.55463               0.851543            0.627778            0.805556          0.548148           0.82284                 0.65             0.908025                 0.392593                 0.869753
+
+Window: 4.0
+Best Accuracy:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     4.0 50.0 137.510888  0.559375 0.548262               0.559375               0.853125            0.630556            0.785648          0.533333          0.835185             0.676389             0.916204                 0.397222                 0.875463
+
+Best mean Recall:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     4.0 50.0 137.510888  0.559375 0.548262               0.559375               0.853125            0.630556            0.785648          0.533333          0.835185             0.676389             0.916204                 0.397222                 0.875463
+
+Best G-Mean:
+           Model  Window    K    Time(s)  Accuracy   G-Mean  Sensibilidad Promedio  Especificidad General  Sensitivity_Música  Specificity_Música  Sensitivity_Leer  Specificity_Leer  Sensitivity_Meditar  Specificity_Meditar  Sensitivity_Matemáticas  Specificity_Matemáticas
+VotingClassifier     4.0 50.0 137.510888  0.559375 0.548262               0.559375               0.853125            0.630556            0.785648          0.533333          0.835185             0.676389             0.916204                 0.397222                 0.875463
+
