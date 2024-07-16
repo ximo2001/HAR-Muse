@@ -14,6 +14,9 @@ This folder contains the EEG recordings used in the experiment, as well as the e
 
 - **`MusePreprocessedTOTAL/`**: Includes the preprocessed EEG recordings in CSV format.
   - `10_1_c1.csv`, `10_1_c2.csv`, `10_1_c3.csv`, ..., `30_2_m3.csv`
+  
+### `EXPERIMENTO` Folder
+Folder containing all data used to perform the experiments.
 
 ### `SOFTWARE` Folder
 This folder contains the scripts and notebooks used for data preprocessing, feature extraction, and the execution and evaluation of the machine learning models.
